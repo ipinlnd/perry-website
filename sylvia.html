@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Perry Shabani:Sylvia</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta property="og:title" content="Perry Shabani">
+    <!-- <meta http-equiv="refresh" content="3">  -->
+    <link rel="stylesheet" href="index.css">
+    <script src="./config.js"></script>
+</head>
+
+<body class="bg-white flex flex-col justify-center items-center">
+    <nav>
+        <div class="flex space-x-4 mt-4">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="./index.html" class="text-gray-300 hover:bg-gray-700 hover:bg-red hover:text-white rounded-md px-3 py-2 text-sm font-main" aria-current="page">Home</a>
+            <a href="./portfolio.html" class="bg-pink text-white hover:text-white rounded-md px-3 py-2 text-sm font-main">Portfolio</a>
+            <a href="./studies.html" class="text-gray-300 hover:bg-gray-700 hover:bg-red hover:text-white rounded-md px-3 py-2 text-sm font-main">Studies</a>
+            <a href="./about.html" class="text-gray-300 hover:bg-gray-700 hover:bg-red hover:text-white rounded-md px-3 py-2 text-sm font-main">About</a>
+        </div>
+    </nav>
+    <div class="container grid mt-8 mb-2">
+        <h1 class="text-gray text-4xl font-title font-bold text-center">Perry Shabani</h1>
+        <h2 class="text-gray text-2xl font-main text-center mt-2">Sylvia
+        </h2>
+    </div>
+    <hr class="w-full" />
+    <div class="container flex flex-col mt-10 px-20 pb-20 justify-start items-center">
+        <div class="w-full flex flex-row justify-between items-center">
+            <img src="./resources/portfolio/sylvia/poster.JPG" class="max-w-md basis-1/2 cursor-zoom-in" onclick="openImage(this.src)" />
+            <h2 class="text-gray text-2xl font-comic text-start mt-2 basis-1/2">Meet Sylvia, a delightful teenage witch navigating the ups and downs of high school while juggling her magical
+                secret.
+                In between homework and cafeteria chatter, Sylvia rocks the current trends with her effortless style. But here's the twist—she carries a shimmering blue crystal that pulses with
+                enchanting energy. Whether casting spells or acing exams, Sylvia proves that being a modern-day witch is all about balancing the ordinary with the extraordinary.
+            </h2>
+        </div>
+        <div class="mt-6 w-full flex flex-row flex-wrap gap-4 justify-center items-center">
+            <img src="./resources/portfolio/sylvia/sylvia-2.jpg" class="max-w-lg cursor-zoom-in" onclick="openImage(this.src)" />
+            <img src="./resources/portfolio/sylvia/sylvia-3.jpg" class="max-w-lg cursor-zoom-in" onclick="openImage(this.src)" />
+            <img src="./resources/portfolio/sylvia/sylvia-4.jpg" class="max-w-2xl cursor-zoom-in" onclick="openImage(this.src)" />
+        </div>
+        <div class="mt-6 w-full flex flex-row justify-between gap-6 items-center">
+            <h2 class="text-gray text-2xl font-comic text-start mt-2 basis-1/2">This is her room. Her Lair! Filled with magical stuff! Her potion-making essentials; Her magic circle; Crystal ball;
+                Books; She uses this room to do all sorts of evil! <br />
+                And her telescope... well... that's not exactly related to magic! That, along with all the moon posters, pictures of the sun and various planets; Those fulfill her passion for
+                astronomy!
+            </h2>
+            <img src="./resources/portfolio/sylvia/room.jpg" class="max-w-xl basis-1/2" onclick="openImage(this.src)" />
+        </div>
+        <div class="mt-6 w-full flex flex-row flex-wrap gap-4 justify-center items-center">
+            <img src="./resources/portfolio/sylvia/room (1).jpg" class="max-w-lg cursor-zoom-in" onclick="openImage(this.src)" />
+            <img src="./resources/portfolio/sylvia/room (3).jpg" class="max-w-lg cursor-zoom-in" onclick="openImage(this.src)" />
+            <img src="./resources/portfolio/sylvia/room (2).jpg" class="max-w-lg cursor-zoom-in" onclick="openImage(this.src)" />
+            <img src="./resources/portfolio/sylvia/room(4).jpg" class="max-w-lg cursor-zoom-in" onclick="openImage(this.src)" />
+        </div>
+    </div>
+    <div id="myModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Perry Shabani</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./config.js"></script>
+    <meta property="og:title" content="Perry Shabani" />
+    <!-- <meta http-equiv="refresh" content="3">  -->
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body class="bg-white flex flex-col justify-center items-center">
+    <nav>
+        <div class="flex space-x-4 mt-4">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="" class="bg-pink text-white rounded-md px-3 py-2 text-sm font-main" aria-current="page">Home</a>
+            <a href="./portfolio.html" class="text-gray-300 hover:bg-gray-700 hover:bg-red hover:text-white rounded-md px-3 py-2 text-sm font-main">Portfolio</a>
+            <a href="./studies.html" class="text-gray-300 hover:bg-gray-700 hover:bg-red hover:text-white rounded-md px-3 py-2 text-sm font-main">Studies</a>
+            <a href="./about.html" class="text-gray-300 hover:bg-gray-700 hover:bg-red hover:text-white rounded-md px-3 py-2 text-sm font-main">About</a>
+        </div>
+    </nav>
+    <div class="container grid mt-8 mb-2">
+        <h1 class="text-gray text-4xl font-title font-bold text-center">Perry Shabani</h1>
+        <h2 class="text-gray text-2xl font-main font-main text-center mt-2">Character Artist | Visual Developer</h2>
+    </div>
+    <hr class="w-full" />
+    <div class="container pb-8">
+        <div class="container grid grid-cols-2 gap-4 px-20 mt-10">
+            <div class="container flex flex-col gap-4">
+                <div class="group relative overflow-hidden">
+                    <img src="./resources/portfolio/illustration/poster.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
+                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center">
+                        Women Life Freedom
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden">
+                    <img src="./resources/portfolio/illustration/kiki.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
+                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center">
+                        Kiki's Delivery Service
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden">
+                    <img src="./resources/portfolio/mermay/mermay-2.JPG" class="cursor-zoom-in" onclick="openImage(this.src)" />
+                    <a class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center justify-between cursor-pointer">
+                        Mermay
+                        <div>See more Mermaids</div>
+                    </a>
+                </div>
+                <div class="group relative overflow-hidden">
+                    <img src="./resources/portfolio/illustration/garage.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
+                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center">
+                        Garage
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden">
+                    <img src="./resources/portfolio/mermay/mermay-4.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
+                    <a class="absolute bottom-0 w-full h-10 px-4 translate-y-11 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center justify-between cursor-pointer">
+                        Mermay
+                        <div>See more Mermaids</div>
+                    </a>
+                </div>
+            </div>
+            <div class="container flex flex-col gap-4">
+                <div class="group relative overflow-hidden">
+                    <img src="./resources/portfolio/bassist_gang/bassist-3.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
+                    <a class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center justify-between cursor-pointer">
+                        The Bassists
+                        <div>See more Bass Players</div>
+                    </a>
+                </div>
+                <div class="group relative overflow-hidden">
+                    <img src="./resources/portfolio/character_design/poster.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
+                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center">
+                        Summer Lake 1895
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden">
+                    <img src="./resources/portfolio/sylvia/room.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
+                    <a class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center justify-between cursor-pointer">
+                        Sylvia's Room
+                        <div>Explore Sylvia's life</div>
+                    </a>
+                </div>
+                <div class="group relative overflow-hidden">
+                    <img src="./resources/portfolio/sylvia/sylvia-1.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
+                    <a class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center justify-between cursor-pointer">
+                        Sylvia herself
+                        <div>Explore Sylvia's life</div>
+                    </a>
+                </div>
+                <div class="group relative overflow-hidden">
+                    <img src="./resources/portfolio/illustration/boy.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
+                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center">
+                        Birthday boy
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+</body>
+
+</html>
