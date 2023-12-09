@@ -13,84 +13,57 @@
 </head>
 
 <body class="bg-white flex flex-col justify-center items-center">
-    <nav>
-        <div class="flex space-x-4 mt-4">
+    <nav class="container flex flex-col items-center justify-center gap-x-40 py-4 lg:px-20 px-10 mt-10">
+        <div class="flex flex-col items-center gap-4">
+            <h1 class="text-gray lg:text-5xl text-2l font-title text-center">Perry Shabaninezhad</h1>
+            <a href="mailto:parniyan.shabaninezhad@gmail.com">
+                <h2 class="text-gray lg:text-2xl text-lg font-main text-center">parniyan.shabaninezhad@gmail.com</h2>
+            </a>
+        </div>
+        <div class="w-[80%] flex lg:flex-row flex-col items-center justify-between lg:mt-12 mt-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="" class="bg-pink text-white rounded-md px-3 py-2 text-sm font-main" aria-current="page">Home</a>
-            <a href="./portfolio.html" class="text-gray-300 hover:bg-gray-700 hover:bg-red hover:text-white rounded-md px-3 py-2 text-sm font-main">Portfolio</a>
-            <a href="./studies.html" class="text-gray-300 hover:bg-gray-700 hover:bg-red hover:text-white rounded-md px-3 py-2 text-sm font-main">Studies</a>
-            <a href="./about.html" class="text-gray-300 hover:bg-gray-700 hover:bg-red hover:text-white rounded-md px-3 py-2 text-sm font-main">About</a>
+            <div class="flex flex-row lg:w-[60%] justify-between">
+                <a href="" class="bg-darkGreen text-white rounded-md px-10 py-2 lg:text-base text-xs font-main" aria-current="page">HOME</a>
+                <a href="./portfolio.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md px-10 py-2 lg:text-base text-xs font-main">PORTFOLIO</a>
+                <a href="./studies.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md px-10 py-2 lg:text-base text-xs font-main">STUDIES</a>
+                <a href="./about.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md px-10 py-2 lg:text-base text-xs font-main">ABOUT</a>
+            </div>
+            <div class="flex flex-row items-center justify-between gap-x-2 lg:gap-x-10 mt-4">
+                <a href="https://instagram.com/perry.shb"><img width="24px" src="instagram.png"></a>
+                <a href="https://www.linkedin.com/in/perry-shabani-a0ab8b129/"><img width="24px" src="linkedin.png"></a>
+                <a href="https://www.artstation.com/perryshb"><img width="24px" src="artstation.png"></a>
+            </div>
         </div>
     </nav>
-    <div class="container grid mt-8 mb-2">
-        <h1 class="text-gray text-4xl font-title font-bold text-center">Perry Shabani</h1>
-        <h2 class="text-gray text-2xl font-main font-main text-center mt-2">Character Artist | Visual Developer</h2>
-    </div>
     <hr class="w-full" />
     <div class="container pb-8">
-        <div class="container grid grid-cols-2 gap-4 px-20 mt-10">
-            <div class="container flex flex-col gap-4">
+        <div class="container grid grid-cols-2 gap-4 px-20 mt-10 place-content-center">
+            <div class="container flex flex-col items-end gap-4">
                 <div class="group relative overflow-hidden">
-                    <img src="./resources/portfolio/illustration/poster.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
-                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center">
-                        Woman Life Freedom
-                    </div>
+                    <img src="./resources/portfolio/illustration/poster.jpg" class="w-full cursor-zoom-in" onclick="openImage(this.src)" />
                 </div>
                 <div class="group relative overflow-hidden">
-                    <img src="./resources/portfolio/illustration/kiki.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
-                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center">
-                        Kiki's Delivery Service
-                    </div>
+                    <img src="./resources/portfolio/sylvia/sylvia-2.jpg" class="w-full cursor-zoom-in" onclick="openImage(this.src)" />
                 </div>
                 <div class="group relative overflow-hidden">
-                    <img src="./resources/portfolio/mermay/mermay-2.JPG" class="cursor-zoom-in" onclick="openImage(this.src)" />
-                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center justify-between ">
-                        Mermay
-                    </div>
+                    <img src="./resources/portfolio/sylvia/room.jpg" class="w-full cursor-zoom-in" onclick="openImage(this.src)" />
                 </div>
                 <div class="group relative overflow-hidden">
-                    <img src="./resources/portfolio/illustration/garage.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
-                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center">
-                        Garage
-                    </div>
-                </div>
-                <div class="group relative overflow-hidden">
-                    <img src="./resources/portfolio/mermay/mermay-4.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
-                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-11 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center justify-between ">
-                        Mermay
-                    </div>
+                    <img src="./resources/portfolio/illustration/bears.jpg" class="w-full cursor-zoom-in" onclick="openImage(this.src)" />
                 </div>
             </div>
             <div class="container flex flex-col gap-4">
                 <div class="group relative overflow-hidden">
-                    <img src="./resources/portfolio/bassist_gang/bassist-3.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
-                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center justify-between ">
-                        The Bassists
-                    </div>
+                    <img src="./resources/portfolio/pirates/IMG_6591.JPG" class="w-full cursor-zoom-in" onclick="openImage(this.src)" />
                 </div>
                 <div class="group relative overflow-hidden">
-                    <img src="./resources/portfolio/character_design/poster.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
-                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center">
-                        Summer Lake 1895
-                    </div>
+                    <img src="./resources/portfolio/character_design/poster.jpg" class="w-full cursor-zoom-in" onclick="openImage(this.src)" />
                 </div>
                 <div class="group relative overflow-hidden">
-                    <img src="./resources/portfolio/sylvia/room.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
-                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center justify-between ">
-                        Sylvia's Room
-                    </div>
+                    <img src="./resources/portfolio/illustration/ghibli.jpg" class="w-full cursor-zoom-in" onclick="openImage(this.src)" />
                 </div>
                 <div class="group relative overflow-hidden">
-                    <img src="./resources/portfolio/sylvia/sylvia-1.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
-                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center justify-between ">
-                        Sylvia herself
-                    </div>
-                </div>
-                <div class="group relative overflow-hidden">
-                    <img src="./resources/portfolio/illustration/boy.jpg" class="cursor-zoom-in" onclick="openImage(this.src)" />
-                    <div class="absolute bottom-0 w-full h-10 px-4 translate-y-10 group-hover:-translate-y-0 transition-transform bg-gray text-red flex items-center">
-                        Birthday boy
-                    </div>
+                    <img src="./resources/portfolio/illustration/garage.jpg" class="w-full cursor-zoom-in" onclick="openImage(this.src)" />
                 </div>
             </div>
         </div>
