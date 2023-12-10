@@ -15,7 +15,7 @@
 <body class="bg-white flex flex-col justify-center items-center">
     <nav class="container flex flex-col items-center justify-center gap-x-40 py-4 lg:px-20 px-10 mt-10">
         <div class="flex flex-col items-center gap-4">
-            <h1 class="text-gray lg:text-5xl text-2l font-title text-center">Perry Shabaninezhad</h1>
+            <h1 class="text-gray lg:text-5xl text-2xl font-title text-center">Perry Shabaninezhad</h1>
             <a href="mailto:parniyan.shabaninezhad@gmail.com">
                 <h2 class="text-gray lg:text-2xl text-lg font-main text-center">parniyan.shabaninezhad@gmail.com</h2>
             </a>
@@ -23,12 +23,12 @@
         <div class="w-[80%] flex lg:flex-row flex-col items-center justify-between lg:mt-12 mt-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <div class="flex flex-row lg:w-[60%] justify-between">
-                <a href="" class="bg-darkGreen text-white rounded-md px-10 py-2 lg:text-base text-xs font-main" aria-current="page">HOME</a>
-                <a href="./portfolio.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md px-10 py-2 lg:text-base text-xs font-main">PORTFOLIO</a>
-                <a href="./studies.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md px-10 py-2 lg:text-base text-xs font-main">STUDIES</a>
-                <a href="./about.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md px-10 py-2 lg:text-base text-xs font-main">ABOUT</a>
+                <a class="bg-darkGreen text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main" aria-current="page">HOME</a>
+                <a href="./portfolio.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">PORTFOLIO</a>
+                <a href="./studies.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">STUDIES</a>
+                <a href="./about.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">ABOUT</a>
             </div>
-            <div class="flex flex-row items-center justify-between gap-x-2 lg:gap-x-10 mt-4">
+            <div class="flex flex-row items-center justify-between gap-x-2 lg:gap-x-10 lg:mt-0 mt-4">
                 <a href="https://instagram.com/perry.shb"><img width="24px" src="instagram.png"></a>
                 <a href="https://www.linkedin.com/in/perry-shabani-a0ab8b129/"><img width="24px" src="linkedin.png"></a>
                 <a href="https://www.artstation.com/perryshb"><img width="24px" src="artstation.png"></a>
@@ -37,7 +37,7 @@
     </nav>
     <hr class="w-full" />
     <div class="container pb-8">
-        <div class="container grid grid-cols-2 gap-4 px-20 mt-10 place-content-center">
+        <div class="container grid grid-cols-2 gap-4 lg:px-20 px-4 mt-10 place-content-center">
             <div class="container flex flex-col items-end gap-4">
                 <div class="group relative overflow-hidden">
                     <img src="./resources/portfolio/illustration/poster.jpg" class="w-full cursor-zoom-in" onclick="openImage(this.src)" />
@@ -71,7 +71,7 @@
     <div id="myModal" class="modal" onclick="closeModal()">
         <span class="close" onclick="closeModal()">&times;</span>
         <img class="modal-content" id="img01">
-        <div id="caption"></div>
+
     </div>
 </body>
 

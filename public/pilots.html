@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Perry Shabani:Projects</title>
+    <title>Perry Shabani:Pilots</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./config.js"></script>
     <meta property="og:title" content="Perry Shabani">
     <!-- <meta http-equiv="refresh" content="3">  -->
     <link rel="stylesheet" href="index.css">
+    <script src="./config.js"></script>
 </head>
 
 <body class="bg-white flex flex-col justify-center items-center">
@@ -36,16 +36,16 @@
         </div>
     </nav>
     <hr class="w-full" />
-    <div class="container max-w-[1200px] grid grid-cols-2 gap-4 mt-10 lg:px-20 px-4 pb-10">
-        <a class="h-full overflow-hidden" href="./sylvia.html">
-            <img src="resources/portfolio/sylvia/poster.JPG" class="h-full cursor-pointer transition-transform duration-1000 hover:scale-125">
-        </a>
-        <a class="h-full overflow-hidden" href="./pilots.html">
-            <img src="resources/portfolio/pilots/poster.JPG" class="h-full cursor-pointer transition-transform duration-1000 hover:scale-125">
-        </a>
-        <a class="h-full overflow-hidden" href="./mermay.html">
-            <img src="resources/portfolio/mermay/mermay-4.JPG" class="h-full cursor-pointer transition-transform duration-1000 hover:scale-125">
-        </a>
+    <div class="container flex flex-col mt-10 lg:px-20 gap-4 px-4 pb-10 justify-center items-center">
+        <img src="resources/portfolio/pilots/pilots-4.JPG" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
+        <img src="resources/portfolio/pilots/pilots-1.jpg" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
+        <img src="resources/portfolio/pilots/pilots-2.jpg" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
+        <img src="resources/portfolio/pilots/pilots-3.jpg" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
+    </div>
+    <div id="myModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+
     </div>
 </body>
 

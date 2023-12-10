@@ -32,7 +32,7 @@ tailwind.config = {
 openImage = function (url) {
   var modal = document.getElementById("myModal");
   var modalImg = document.getElementById("img01");
-  modal.style.display = "block";
+  modal.style.display = "flex";
   modalImg.src = url;
 };
 
