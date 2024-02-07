@@ -1,53 +1,60 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Perry Shabani:Sylvia</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <meta property="og:title" content="Perry Shabani">
-    <!-- <meta http-equiv="refresh" content="3">  -->
-    <link rel="stylesheet" href="index.css">
-    <script src="./config.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perry Shabani:Sylvia</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta property="og:title" content="Perry Shabani">
+  <!-- <meta http-equiv="refresh" content="3">  -->
+  <link rel="stylesheet" href="index.css">
+  <script src="./config.js"></script>
 </head>
 
 <body class="bg-white flex flex-col justify-center items-center">
-    <nav class="container flex flex-col items-center justify-center gap-x-40 py-4 lg:px-20 px-10 mt-10">
-        <div class="flex flex-col items-center gap-4">
-            <h1 class="text-gray lg:text-5xl text-2l font-title text-center">Perry Shabaninezhad</h1>
-            <a href="mailto:parniyan.shabaninezhad@gmail.com">
-                <h2 class="text-gray lg:text-2xl text-lg font-main text-center">parniyan.shabaninezhad@gmail.com</h2>
-            </a>
-        </div>
-        <div class="w-[80%] flex lg:flex-row flex-col items-center justify-between lg:mt-12 mt-4">
-            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <div class="flex flex-row lg:w-[60%] justify-between">
-                <a href="./index.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">HOME</a>
-                <a href="./portfolio.html" class="bg-darkGreen text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main" aria-current="page">PORTFOLIO</a>
-                <a href="./studies.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">STUDIES</a>
-                <a href="./about.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">ABOUT</a>
-            </div>
-            <div class="flex flex-row items-center justify-between gap-x-2 lg:gap-x-10 mt-4">
-                <a href="https://instagram.com/perry.shb"><img width="24px" src="instagram.png"></a>
-                <a href="https://www.linkedin.com/in/perry-shabani-a0ab8b129/"><img width="24px" src="linkedin.png"></a>
-                <a href="https://www.artstation.com/perryshb"><img width="24px" src="artstation.png"></a>
-            </div>
-        </div>
-    </nav>
-    <hr class="w-full" />
-    <div class="container flex flex-col mt-10 lg:px-20 gap-4 px-4 pb-10 justify-center items-center">
-        <img src="resources/portfolio/sylvia/title.JPG" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
-        <img src="resources/portfolio/sylvia/sylvias.JPG" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
-        <img src="resources/portfolio/sylvia/sylvia-3.jpg" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
-        <img src="resources/portfolio/sylvia/room (2).jpg" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
-        <img src="resources/portfolio/sylvia/frame.jpg" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
+  <nav class="container flex flex-col items-center justify-center gap-x-40 py-4 lg:px-20 px-10 mt-10">
+    <div class="flex flex-col items-center gap-4">
+      <h1 class="text-gray lg:text-5xl text-2l font-title text-center">Perry Shabaninezhad</h1>
+      <a href="mailto:parniyan.shabaninezhad@gmail.com">
+        <h2 class="text-gray lg:text-2xl text-lg font-main text-center">parniyan.shabaninezhad@gmail.com</h2>
+      </a>
     </div>
-    <div id="myModal" class="modal" onclick="closeModal()">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="img01">
+    <div class="w-[80%] flex lg:flex-row flex-col items-center justify-between lg:mt-12 mt-4">
+      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+      <div class="flex flex-row lg:w-[60%] justify-between">
+        <a href="./index.html"
+          class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">HOME</a>
+        <a href="./portfolio.html"
+          class="bg-darkGreen text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main"
+          aria-current="page">PORTFOLIO</a>
+        <a href="./studies.html"
+          class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">STUDIES</a>
+        <a href="./about.html"
+          class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">ABOUT</a>
+      </div>
+      <div class="flex flex-row items-center justify-between gap-x-2 lg:gap-x-10 mt-4">
+        <a href="https://instagram.com/perry.shb"><img width="24px" src="instagram.png"></a>
+        <a href="https://www.linkedin.com/in/perry-shabaninezhad-a0ab8b129/"><img width="24px" src="linkedin.png"></a>
+        <a href="https://www.artstation.com/perryshb"><img width="24px" src="artstation.png"></a>
+      </div>
+    </div>
+  </nav>
+  <hr class="w-full" />
+  <div class="container flex flex-col mt-10 lg:px-20 gap-4 px-4 pb-10 justify-center items-center">
+    <img src="resources/portfolio/sylvia/title.JPG" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
+    <img src="resources/portfolio/sylvia/sylvias.JPG" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
+    <img src="resources/portfolio/sylvia/sylvia-3.jpg" class="max-h-[90vh] cursor-zoom-in"
+      onclick="openImage(this.src)">
+    <img src="resources/portfolio/sylvia/room (2).jpg" class="max-h-[90vh] cursor-zoom-in"
+      onclick="openImage(this.src)">
+    <img src="resources/portfolio/sylvia/frame.jpg" class="max-h-[90vh] cursor-zoom-in" onclick="openImage(this.src)">
+  </div>
+  <div id="myModal" class="modal" onclick="closeModal()">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="img01">
 
-    </div>
+  </div>
 </body>
 
 </html>

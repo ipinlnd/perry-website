@@ -1,91 +1,131 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Perry Shabani:Characters</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./config.js"></script>
-    <meta property="og:title" content="Perry Shabani" />
-    <!-- <meta http-equiv="refresh" content="3">  -->
-    <link rel="stylesheet" href="index.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perry Shabani:Characters</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./config.js"></script>
+  <meta property="og:title" content="Perry Shabani" />
+  <!-- <meta http-equiv="refresh" content="3">  -->
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body class="bg-white flex flex-col justify-center items-center">
-    <nav class="container flex flex-col items-center justify-center gap-x-40 py-4 lg:px-20 px-10 mt-10">
-        <div class="flex flex-col items-center gap-4">
-            <h1 class="text-gray lg:text-5xl text-2l font-title text-center">Perry Shabaninezhad</h1>
-            <a href="mailto:parniyan.shabaninezhad@gmail.com">
-                <h2 class="text-gray lg:text-2xl text-lg font-main text-center">parniyan.shabaninezhad@gmail.com</h2>
-            </a>
-        </div>
-        <div class="w-[80%] flex lg:flex-row flex-col items-center justify-between lg:mt-12 mt-4">
-            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <div class="flex flex-row lg:w-[60%] justify-between">
-                <a href="./index.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">HOME</a>
-                <a href="./portfolio.html" class="bg-darkGreen text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main" aria-current="page">PORTFOLIO</a>
-                <a href="./studies.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">STUDIES</a>
-                <a href="./about.html" class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">ABOUT</a>
-            </div>
-            <div class="flex flex-row items-center justify-between gap-x-2 lg:gap-x-10 mt-4">
-                <a href="https://instagram.com/perry.shb"><img width="24px" src="instagram.png"></a>
-                <a href="https://www.linkedin.com/in/perry-shabani-a0ab8b129/"><img width="24px" src="linkedin.png"></a>
-                <a href="https://www.artstation.com/perryshb"><img width="24px" src="artstation.png"></a>
-            </div>
-        </div>
-    </nav>
-    <hr class="w-full" />
-    <div class="container flex flex-col items-start justify-start py-8">
-        <div class="w-full flex items-center justify-center">
-            <h2 class="font-main text-3xl">Character Designs</h2>
-        </div>
-        <div class="w-full px-10 mt-10 flex flex-row flex-wrap gap-2 justify-center">
-            <img src="resources/portfolio/pirates/cd-1.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/pirates/cd-2.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/pirates/cd-3.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/pirates/p3.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/pirates/p4.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/pirates/p5.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/pirates/p6.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/bassist_gang/bassist-3.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/bassist_gang/bassist-5.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/bassist_gang/bassist-1.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/sylvia/sylvia-3.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/sylvia/sylvia-2.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/sylvia/sylvia-4.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/big-girl.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/tool-girl.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/cool-girl.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/mermay/mermay-3.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/mermay/mermay-7.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/mermay/mermay-9.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/mermay/mermay-4.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/mermay/mermay-6.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/mermay/mermay-8.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/wisely-1.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/wisely-2.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/mr-philbert.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/running-girl.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/spade-girl.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/flying-shoes.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/girls.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/boys.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/vampire.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/character_design/big-shoes.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/harry_potter/all.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/harry_potter/luna.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/harry_potter/lunas.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/harry_potter/hermione.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/harry_potter/ron.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/harry_potter/harry.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-            <img src="resources/portfolio/harry_potter/dumbledore.jpg" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
-        </div>
+  <nav class="container flex flex-col items-center justify-center gap-x-40 py-4 lg:px-20 px-10 mt-10">
+    <div class="flex flex-col items-center gap-4">
+      <h1 class="text-gray lg:text-5xl text-2l font-title text-center">Perry Shabaninezhad</h1>
+      <a href="mailto:parniyan.shabaninezhad@gmail.com">
+        <h2 class="text-gray lg:text-2xl text-lg font-main text-center">parniyan.shabaninezhad@gmail.com</h2>
+      </a>
     </div>
-    <div id="myModal" class="modal" onclick="closeModal()">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="img01">
+    <div class="w-[80%] flex lg:flex-row flex-col items-center justify-between lg:mt-12 mt-4">
+      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+      <div class="flex flex-row lg:w-[60%] justify-between">
+        <a href="./index.html"
+          class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">HOME</a>
+        <a href="./portfolio.html"
+          class="bg-darkGreen text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main"
+          aria-current="page">PORTFOLIO</a>
+        <a href="./studies.html"
+          class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">STUDIES</a>
+        <a href="./about.html"
+          class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md lg:px-10 px-4 py-2 lg:text-base text-xs font-main">ABOUT</a>
+      </div>
+      <div class="flex flex-row items-center justify-between gap-x-2 lg:gap-x-10 mt-4">
+        <a href="https://instagram.com/perry.shb"><img width="24px" src="instagram.png"></a>
+        <a href="https://www.linkedin.com/in/perry-shabaninezhad-a0ab8b129/"><img width="24px" src="linkedin.png"></a>
+        <a href="https://www.artstation.com/perryshb"><img width="24px" src="artstation.png"></a>
+      </div>
     </div>
+  </nav>
+  <hr class="w-full" />
+  <div class="container flex flex-col items-start justify-start py-8">
+    <div class="w-full flex items-center justify-center">
+      <h2 class="font-main text-3xl">Character Designs</h2>
+    </div>
+    <div class="w-full px-10 mt-10 flex flex-row flex-wrap gap-2 justify-center">
+      <img src="resources/portfolio/pirates/cd-1.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/pirates/cd-2.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/pirates/cd-3.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/pirates/p3.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
+      <img src="resources/portfolio/pirates/p4.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
+      <img src="resources/portfolio/pirates/p5.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
+      <img src="resources/portfolio/pirates/p6.JPG" class="max-h-[280px] cursor-zoom-in" onclick="openImage(this.src)">
+      <img src="resources/portfolio/bassist_gang/bassist-3.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/bassist_gang/bassist-5.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/bassist_gang/bassist-1.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/sylvia/sylvia-3.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/sylvia/sylvia-2.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/sylvia/sylvia-4.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/big-girl.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/tool-girl.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/cool-girl.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/mermay/mermay-3.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/mermay/mermay-7.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/mermay/mermay-9.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/mermay/mermay-4.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/mermay/mermay-6.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/mermay/mermay-8.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/wisely-1.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/wisely-2.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/mr-philbert.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/running-girl.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/spade-girl.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/flying-shoes.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/girls.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/boys.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/vampire.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/character_design/big-shoes.JPG" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/harry_potter/all.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/harry_potter/luna.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/harry_potter/lunas.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/harry_potter/hermione.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/harry_potter/ron.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/harry_potter/harry.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+      <img src="resources/portfolio/harry_potter/dumbledore.jpg" class="max-h-[280px] cursor-zoom-in"
+        onclick="openImage(this.src)">
+    </div>
+  </div>
+  <div id="myModal" class="modal" onclick="closeModal()">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
 </body>
 
 </html>

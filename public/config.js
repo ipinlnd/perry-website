@@ -10,6 +10,7 @@ tailwind.config = {
       pink: "#FF9C91",
       white: "#F4F6F6",
       darkGreen: "#004225",
+      blue: "blue",
     },
     fontFamily: {
       title: ["title"],
