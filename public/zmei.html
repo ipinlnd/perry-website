@@ -1,0 +1,83 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perry Shabani</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./config.js"></script>
+  <meta property="og:title" content="Perry Shabani" />
+  <meta name="Description" content="Perry Shabani's Portfolio Website" />
+  <link rel="icon" href="favicon.PNG" type="image/x-icon" />
+  <meta name="image" content="favicon.PNG" />
+  <meta name="keywords" content="perry shabani, parnian, illustration, animation, concept art, concept artist, background artist,
+      prop artist" />
+  <link rel="icon" href="favicon.PNG" type="image/x-icon" />
+  <meta name="image" content="favicon.PNG" />
+  <meta name="keywords" content="perry shabani, parnian, illustration, animation, concept art, concept artist, background artist,
+      prop artist" />
+  <!-- <meta http-equiv="refresh" content="3">  -->
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body class="bg-white flex flex-col justify-center items-center">
+  <nav class="container flex flex-col items-center justify-center gap-x-40 py-4 lg:px-20 px-10 mt-10">
+    <div class="flex flex-col items-center gap-4">
+      <a href="./index.html">
+        <h1 class="text-gray lg:text-5xl text-2xl font-title text-center">Perry Shabaninezhad</h1>
+      </a>
+      <a href="mailto:parniyan.shabaninezhad@gmail.com">
+        <h2 class="text-gray lg:text-2xl text-lg font-main text-center">parniyan.shabaninezhad@gmail.com</h2>
+      </a>
+      <div class="flex flex-row items-center justify-between gap-x-2 lg:gap-x-10 lg:mt-0 mt-4">
+        <a href="https://instagram.com/perry.shb"><img width="24px" src="instagram.png"></a>
+        <a href="https://www.linkedin.com/in/perry-shabaninezhad-a0ab8b129/"><img width="24px" src="linkedin.png"></a>
+        <a href="https://www.artstation.com/perryshb"><img width="24px" src="artstation.png"></a>
+      </div>
+      <div class="flex flex-row items-center justify-between gap-2">
+        <a href="./index.html"
+          class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md px-4 py-2 lg:text-base text-xs font-main">Portfolio</a>
+        <a href="./about.html"
+          class="text-gray-300 hover:bg-darkGreen hover:opacity-70 hover:text-white rounded-md px-4 py-2 lg:text-base text-xs font-main">About</a>
+      </div>
+    </div>
+  </nav>
+  <div id="main" class="container flex flex-col items-center justify-start py-2">
+    <div class="w-full px-8 gap-2 grid  grid-cols-6 pb-10">
+      <h2 class="text-darkGreen lg:text-4xl mt-4 text-lg font-main text-start col-span-6">Studio Zmei</h2>
+      <hr class="bg-darkGreen col-span-6 h-1" />
+      <h2 class="text-gray text-lg font-main text-start col-span-6">
+        For this project I was responsible for designing a few illustrations involving whimsical worlds filled with
+        quirky characters and their animal sidekicks and a character sheet for an animation pitch.
+        I joined the team on a tight deadline and had only 3 days to design everything following the given brief. As
+        challenging as it was I really enjoyed working with the studio Zmei team and learned a lot in the process!
+      </h2>
+      <div class="w-full h-full col-span-4 col-start-2 bg-realWhite flex items-center">
+        <img src="resources/portfolio/Zmei/2.JPG" class="cursor-zoom-in" onclick="openImage(this.src)">
+      </div>
+      <div class="w-full h-full col-span-4 col-start-2 bg-realWhite flex items-center">
+        <img src="resources/portfolio/Zmei/3.JPG" class="cursor-zoom-in" onclick="openImage(this.src)">
+      </div>
+      <div class="w-full h-full col-span-4 col-start-2 bg-realWhite flex items-center">
+        <img src="resources/portfolio/Zmei/1.JPG" class="cursor-zoom-in" onclick="openImage(this.src)">
+      </div>
+    </div>
+  </div>
+  <div id="myModal" class="modal" onclick="closeModal()">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
+  <script>
+    var password = "kaonashi";
+    (function passwordProtection() {
+      var enteredPassword = prompt("Please enter the password to view this page", "");
+      if (enteredPassword !== password) {
+        document.getElementById("main").style.display = "none";
+        window.history.back();
+      }
+    })();
+  </script>
+</body>
+
+</html>
